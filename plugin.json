@@ -1,0 +1,16 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "courier-by-autolane",
+  "version": "1.0.0",
+  "description": "Restaurant pickup delivery in Austin, Texas: you place the pickup order, and an Autolane vehicle collects it and brings it to you for a flat fee.",
+  "author": { "name": "Autolane", "email": "support@goautolane.com", "url": "https://goautolane.com" },
+  "homepage": "https://docs.goautolane.com/courier/get-started",
+  "repository": "https://github.com/Autolane/hermes-courier-plugin",
+  "license": "MIT",
+  "keywords": ["delivery", "food", "pickup", "austin", "mcp"],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": { "courier-by-autolane": { "trust": "untrusted" } }
+    }
+  }
+}
